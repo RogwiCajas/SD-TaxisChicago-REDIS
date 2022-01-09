@@ -44,28 +44,58 @@ router.post('/taxis', (req, res) => {
 // Ruta y operacion READ
 router.get('/taxis/:id', (req, res) => {
     const { id } = req.params;
-    taxiSchema
-        .findById(id)
-        .then((data) => {
-            console.log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
-            console.log(data)
-            console.log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")            
-            client.set('taxi',JSON.stringify(data),(err,reply)=>{
-                if(err) console.error(err)
-                console.log("RESPUESTAAAAA "+reply)
-            });            
-            console.log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
+    client.get(id).then(resp => {
+        if(resp==null){
+            console.log(" NULOOOOOOOOOO")
+            taxiSchema
+            .findById(id)
+            .then((data) => {
+                console.log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
+                console.log(data)
+                console.log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")            
+                client.set(id,JSON.stringify(data),(err,reply)=>{
+                    if(err) console.error(err)
+                    console.log("RESPUESTAAAAA "+reply)
+                });            
+                console.log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
+                res.json(data)
+            })
+            .catch((error) => res.json({ message: error }));    
+        }
+        else{
+            console.log(resp+ "  BBBBBBBB")
+            res.json(JSON.parse(resp))
+        }
+    })           
 
-            
+    // const { id } = req.params;
+    // taxiSchema
+    //     .findById(id)
+    //     .then((data) => {
+    //         console.log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
+    //         console.log(data)
+    //         console.log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")            
+    //         client.set('taxi',JSON.stringify(data),(err,reply)=>{
+    //             if(err) console.error(err)
+    //             console.log("RESPUESTAAAAA "+reply)
+    //         });            
+    //         console.log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
 
-            res.json(data)
-        })
-        .catch((error) => res.json({ message: error }));
+    //         // client.get('taxi').then(resp => 
+    //         //     console.log(resp+ " BBBBB")
+                
+    //         // )           
+
+
+    //         res.json(data)
+    //     })
+    //     .catch((error) => res.json({ message: error }));
 });
 
 // router.get('/taxis/:id', async (req, res) => {
 //     const { id } = req.params;
 //     client.get(id, async (err, reply) => {
+//         console.log("DENTRO DEEEEEL")
 //         if(reply){
 //             console.log("en reply")
 //             return res.json(JSON.parse(reply));
