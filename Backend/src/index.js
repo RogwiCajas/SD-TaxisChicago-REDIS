@@ -3,6 +3,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const taxiRoutes = require('./routes/taxi');  
 require('dotenv').config();
+const responseTime = require("response-time")
 
 const app = express();
 const port = process.env.port || 9000;
@@ -28,6 +29,7 @@ app.use(function (req, res, next) {
     next();
 });
 app.use(express.json());
+app.use(responseTime());
 app.use('/api', taxiRoutes);
 
 // Rutas

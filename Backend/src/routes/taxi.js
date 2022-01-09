@@ -7,6 +7,16 @@ const path = require('path')
 
 const txt = fs.readFileSync(path.resolve(__dirname, 'result.txt') , 'utf8')
 
+var redis = require('redis');
+var client = redis.createClient(); //creates a new client
+// client.on('connect', function() {
+//     console.log('connecteddddddddddddddddddddddddd*****');
+// });
+client.on('error', (err) => console.log('Redis Client Error', err));
+client.connect();
+// client.set('key', 'value');
+// client.get('foo').then(console.log("SIIIIIIII"));
+
 //Ruta Resultados de MapReduce
 router.get('/taxis/mapreduce/resultados', (req, res) => {
     let arreglo = txt.split('\r\n');
@@ -36,9 +46,43 @@ router.get('/taxis/:id', (req, res) => {
     const { id } = req.params;
     taxiSchema
         .findById(id)
-        .then((data) => res.json(data))
+        .then((data) => {
+            console.log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
+            console.log(data)
+            console.log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")            
+            client.set('taxi',JSON.stringify(data),(err,reply)=>{
+                if(err) console.error(err)
+                console.log("RESPUESTAAAAA "+reply)
+            });            
+            console.log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
+
+            
+
+            res.json(data)
+        })
         .catch((error) => res.json({ message: error }));
 });
+
+// router.get('/taxis/:id', async (req, res) => {
+//     const { id } = req.params;
+//     client.get(id, async (err, reply) => {
+//         if(reply){
+//             console.log("en reply")
+//             return res.json(JSON.parse(reply));
+//         }
+//         taxiSchema        
+//         .findById(id)
+//         .then((data) => {
+//             client.set(id, JSON.stringify(data), (err, reply) => {
+//                 console.log("sin reply")
+//                 res.json(data)
+//             });
+//         })
+//         .catch((error) => res.json({ message: error }));
+//     })
+// });
+
+
 
 // Ruta y operacion UPDATE
 router.put('/taxis/:id', (req, res) => {

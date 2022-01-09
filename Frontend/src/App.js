@@ -34,7 +34,16 @@ class App extends React.Component{
 
   peticionGET= (id) => {
     fetchRegistro(id).then(response =>{
-      this.setState({data: response})
+      this.setState({data: response})   
+
+      ///////////////////////////////////////
+      // fetchRegistroCache(response).then(response=>{
+      //   console.log("SE GUARDO EN LA CACHE")
+      // }).catch(error=>{
+      //   console.log(error.message);
+      // })   
+      ///////////////////////////////////////
+
     }).catch(error=>{
       console.log(error.message);
     })

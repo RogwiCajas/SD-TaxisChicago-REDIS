@@ -34,6 +34,14 @@ export const fetchRegistro = (id) =>{
     const params ={}
     return makeGet (url,{params,headers});
 }
+///////////////////////////////////////
+// export const fetchRegistroCache = (data) =>{
+//     const url ="http://localhost:9000/api/taxis/"+data.id+"/";
+//     const headers = {'Content-type': 'application/json'};
+//     const objeto = data
+//     return makePost (url,objeto,{headers});
+// }
+///////////////////////////////////////
 
 export const fetchCrearRegistro = ( unique_key, taxi_id, company, trip_total )=>{
     const url ="http://localhost:9000/api/taxis/";
