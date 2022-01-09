@@ -1,0 +1,169 @@
+0118 - 42111 Godfrey S.Awir	311416.59
+0118 - Godfray S.Awir	189.55
+0118 - Godfrey S.Awir	42527.09
+0694 - 59280 Chinesco Trans Inc	176033.80
+0694 - Chinesco Trans Inc	19831.79
+1085 - 72312 N and W Cab Co	302567.39
+1085 - N and W Cab Co	85641.08
+1247 - 72807 Daniel Ayertey	138670.13
+1247 - Daniel Ayertey	28905.54
+1408 - 89599 Donald Barnes	40365.55
+1408 - Donald Barnes	4180.90
+1469 - 64126 Omar Jada	140910.39
+2092 - 61288 Sbeih company	362182.69
+2092 - Sbeih company	6752.50
+2192 - 73487 Zeymane Corp	204342.73
+2192 - Zeymane Corp	82392.04
+2241 - 44667 - Felman Corp, Manuel Alonso	42268.84
+2241 - 44667 Manuel Alonso	96146.36
+2241 - Manuel Alonso	35673.98
+24 Seven Taxi	16463469.90
+2733 - 74600 Benny Jona	437802.09
+2733 - Benny Jona	90159.44
+2767 - Sayed M Badri	7547.27
+2809 - 95474 C & D Cab Co Inc.	166916.20
+2809 - 95474 C&D Cab Co Inc.	2620.05
+2823 - 73307 Lee Express Inc	78135.90
+2823 - 73307 Seung Lee	107975.05
+2823 - Seung Lee	8177.67
+3011 - 66308 JBL Cab Inc.	429609.08
+3011 - JBL Cab Inc.	17841.54
+303 Taxi	15065138.87
+303 Taxi Waukegan	8256.43
+3094 - 24059 G.L.B. Cab Co	201225.09
+3094 - G.L.B. Cab Co	9064.76
+312 Medallion Management Corp	794950.51
+3141 - 87803 Zip Cab	139042.21
+3141 - Zip Cab	107706.77
+3152 - 97284 Crystal Abernathy	126969.97
+3152 - Crystal Abernathy	17302.77
+3201 - C & D Cab Co Inc	3622.06
+3201 - C&D Cab Co Inc	225843.61
+3201 - CD Cab Co Inc	51879.08
+3201 - CID Cab Co Inc	12754.30
+3253 - 91138 Gaither Cab Co.	127337.69
+3253 - Gaither Cab Co.	6835.98
+3319 - C&D Cab Company	28656.58
+3319 - CD Cab Co	35910.17
+3385 -  Eman Cab	3102.10
+3385 - 23210  Eman Cab	30778.65
+3385 - 23210 Eman Cab	8366.15
+3385 - Eman Cab	17168.82
+3556 - 36214 RC Andrews Cab	159675.45
+3556 - RC Andrews Cab	24.75
+3591 - 63480 Chuk's Cab	9901.36
+3591 - 63480 Chuks Cab	264130.43
+3591- 63480 Chuk's Cab	27727.28
+3591- Chuk's Cab	8965.17
+3620 - 52292 David K. Cab Corp.	312152.15
+3620 - David K. Cab Corp.	62269.18
+3623 - 72222 Arrington Enterprises	308927.61
+3623-Arrington Enterprises	33907.86
+3669 - 85800 Jordan Taxi Inc	101932.92
+3669 - Jordan Taxi Inc	350.46
+3721 - Santamaria Express, Alvaro Santamaria	109035.75
+3897 - 57856 Ilie Malec	48426.42
+3897 - Ilie Malec	90776.48
+4053 - 40193 Adwar H. Nikola	296033.61
+4053 - Adwar H. Nikola	59510.76
+4197 - 41842 Royal Star	194604.67
+4197 - Royal Star	11958.12
+4523 - 79481 Hazel Transit Inc	4316.55
+4615 - 83503 Tyrone Henderson	152981.11
+4615 - Tyrone Henderson	51327.99
+4623 - 27290 Jay Kim	394138.29
+4623 - Jay Kim	20481.26
+4732 - Maude Lamy	1293.99
+4787 - 56058 Reny Cab Co	184914.08
+4787 - Reny Cab Co	60399.61
+5 Star Taxi	4608985.98
+5006 - 39261 Salifu Bawa	261366.86
+5006 - Salifu Bawa	13342.84
+5062 - 34841 Sam Mestas	117954.82
+5062 - Sam Mestas	4227.36
+5074 - 54002 Ahzmi Inc	251037.82
+5074 - Ahzmi Inc	28434.70
+5129 - 87128	188557.05
+5129 - 98755 Mengisti Taxi	73443.90
+5129 - Mengisti Taxi	41206.91
+5437 - Great American Cab Co	28582.77
+5724 - 72965 KYVI Cab Inc	27057.21
+5724 - 75306 KYVI Cab Inc	133422.36
+5724 - KYVI Cab Inc	27111.87
+5776 - Mekonen Cab Company	64002.82
+585 - 88805 Valley Cab Co	186326.18
+585 - Valley Cab Co	7331.79
+5864 - 73614 Thomas Owusu	22870.17
+5864 - Thomas Owusu	12491.92
+5874 - 73628 Sergey Cab Corp.	314254.94
+5874 - Sergey Cab Corp.	67071.08
+5997 - 65283 AW Services Inc.	159778.38
+5997 - AW Services Inc.	29171.91
+6057 - 24657 Richard Addo	101134.02
+6488 - 83287 Zuha Taxi	89395.36
+6488 - Zuha Taxi	28623.51
+6574 - Babylon Express Inc.	324938.83
+6742 - 83735 Tasha ride inc	264403.64
+6743 - 78771 Luhak Corp	415774.89
+6743 - Luhak Corp	131250.92
+6747 - Mueen Abdalla	95177.56
+American United	44761405.23
+American United Cab Association	2513.35
+American United Taxi Affiliation	950798.50
+Arro	13.33
+Blue Cab Co	211061.06
+Blue Diamond	20503668.03
+Blue Ribbon Taxi Association Inc.	141587327.32
+C & D Cab Co Inc	142613.92
+CMT-Sales	7.00
+Checker Taxi	21317103.62
+Checker Taxi Affiliation	12001102.74
+Chicago Carriage Cab Corp	139626701.85
+Chicago Elite Cab Corp.	19422354.06
+Chicago Elite Cab Corp. (Chicago Carriag	104031427.76
+Chicago Independents	21968439.77
+Chicago Medallion Leasing INC	7901314.61
+Chicago Medallion Management	12104690.19
+Chicago Star Taxicab	118637.72
+Chicago Taxicab	15095022.30
+Choice Taxi Association	122769896.42
+City Service	96171673.58
+DTA Test	10.25
+Dispatch Taxi Affiliation	145337996.80
+Dispatch Taxi Affiliation (credit hold)	494432.57
+Flash Cab	298774577.91
+FlashCab	785.36
+Globe Taxi	39841621.14
+Gold Coast Taxi	4989701.85
+KOAM Taxi Association	30811518.44
+Leonard Cab Co	1178616.64
+Medallion Leasin	92940239.72
+Metro Group	2325281.54
+Metro Jet Cab Association Inc.	28726.42
+Metro Jet Taxi A	6556407.55
+Metro Jet Taxi A.	8641.09
+Metro Jet Taxi Ass	25619.49
+Norshore Cab	2898445.77
+Northwest Management LLC	50783311.87
+Northwest Management LLC (Credit Hold)	76112.63
+Nova Taxi Affiliation Llc	19262770.40
+Pacebus	23.61
+Park Ridge Taxi and Livery	619835.12
+Patriot Taxi Dba Peace Taxi Associat	21187688.32
+Patriot Trans Inc	39101.37
+Peace Taxi Assoc	250819.49
+Petani Cab Corp	307281.40
+Service Taxi Association	2743569.52
+Setare Inc	2581053.38
+Star North Management LLC	46981888.18
+Suburban Dispatch LLC	14032423.93
+Sun Taxi	97568296.52
+T.A.S. - Payment Only	15369523.62
+Taxi Affiliation Service Yellow	65430248.64
+Taxi Affiliation Services	619197169.65
+Taxicab Insurance Agency, LLC	13906606.54
+Top Cab	139.20
+Top Cab - 312 MM Corp	60968.75
+Top Cab Affiliation	29300331.10
+Top Cab Affiliation - credit hold	159680.42
+U Taxicab	1965027.99
